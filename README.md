@@ -1,5 +1,7 @@
 # [Elektronika cyfrowa (2022/2023)](https://spe.if.uj.edu.pl/web/spe-if/cwiczenia)
 
+Sprawozdania do zajęć sporządzone zostały w LaTeXie.
+
 ### Odnosniki do sprawozdań z zajęć: 
 - [x] [I - Obsługa oscyloskopu i generatora funkcyjnego. Dzielnik napięcia.](Sprawozdanie_I/)
 - [x] [II - Czwórniki bierne. Linia długa.](Sprawozdanie_II/)
