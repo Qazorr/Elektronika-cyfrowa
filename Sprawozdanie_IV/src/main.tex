@@ -1,0 +1,73 @@
+\documentclass[12pt, a4 paper]{report}
+\usepackage[T1]{fontenc}
+\usepackage[polish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+  {\normalfont\bfseries}{}{0pt}{\Huge}
+\usepackage{ragged2e}
+\usepackage{blindtext}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    pdftitle={Sprawozdanie IV Kacper Piątkowski},
+    pdfpagemode=FullScreen,
+}
+%\usepackage{subfigure}
+\usepackage{gensymb}
+\usepackage{amssymb}
+\usepackage{xcolor}
+\usepackage[margin=3.1cm]{geometry}
+\titlespacing*{\chapter}{0pt}{-30mm}{40pt}
+\usepackage{pgfplots}
+\usepgfplotslibrary{units}
+\pgfplotsset{width=14cm,compat=1.9}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Elektronika Cyfrowa}
+\rhead{Kacper Piątkowski}
+\fancyfoot[C]{\thepage}
+\usepackage{colortbl}
+\usepackage{karnaugh-map}
+
+\title {Sprawozdanie IV\\
+{\Large Elektronika Cyfrowa}}
+\author{
+Kacper Piątkowski\\
+Grupa 4\\\\
+Prowadzący: dr Szymon Niedźwiecki}
+\date{Data laboratoriów: 11.05.2022}
+\label{grupa}
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\include{src/wstep}
+
+\include{src/Cwiczenie_1}
+
+\include{src/Cwiczenie_2}
+
+\include{src/Cwiczenie_3}
+
+\include{src/Cwiczenie_4}
+
+\include{src/Cwiczenie_5}
+
+\include{src/Cwiczenie_6}
+
+\include{src/Podsumowanie}
+
+\end{document}
